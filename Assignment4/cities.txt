@@ -1,0 +1,8 @@
+NewYork,NY,8336697
+LosAngeles,CA,3857799
+LosAngeles,CA,3857799
+Chicago,IL,2714856
+Houston,TX,2160821
+Philadelphia,PA,1547607
+Phoenix,AZ,1488750
+SanAntonio,TX,1382951

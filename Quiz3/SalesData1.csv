@@ -1,0 +1,11 @@
+ProductName,Category,Price,Quantity,SalesDate
+Product A,Electronics,99.99,10,2023-01-01
+Product B,Apparel,49.99,5,2023-01-02
+Product C,Electronics,199.99,3,2023-01-03
+Product A,Electronics,99.99,8,2023-01-04
+Product D,Home & Kitchen,79.99,12,2023-01-05
+Product B,Apparel,49.99,6,2023-02-01
+Product C,Electronics,199.99,5,2023-02-02
+Product A,Electronics,99.99,10,2023-02-03
+Product D,Home & Kitchen,79.99,15,2023-02-04
+Product B,Apparel,49.99,3,2023-02-05
