@@ -94,14 +94,18 @@ def mine(array, n):
 
     for i in range(array.shape[0]):
         for j in range(array.shape[1]):
-            count = 0
+
             for x in range(max(0, i - n), min(array.shape[0], i + n + 1)):
                 for y in range(max(0, j - n), min(array.shape[1], j + n + 1)):
                     if array[x, y] == -1:  # Assuming -1 represents a mine
-                        count += 1
+                        result[i,j]=-1
             if array[i, j] == -1:
                 result[i, j] = -1
             else:
-                result[i, j] = count
+                mine_count=np.sum(array[max(0, i - n):min(array.shape[0], i + n + 1),max(0, j - n):min(array.shape[1], j + n + 1)]==-1)
+                result[i,j]=mine_count
 
     return result
+import math
+math.ceil()
+round(5.55,1)
